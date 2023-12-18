@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIFont {
-    static func getComicFont(_ size: CGFloat) -> UIFont {
-        return UIFont(name: "Comic Sans MS", size: size) ?? systemFont(ofSize: size, weight: .medium)
+    static func getComicFont(_ size: CGFloat) -> UIFont? {
+        return UIFont(name: "Comic Sans MS", size: size)
     }
 }

@@ -44,7 +44,7 @@ extension GovinfoLoaderViewUI {
     func initComponents() {
         setSubviews()
         setAutolayout()
-        backgroundColor = .govinfoOrange.withAlphaComponent(0)
+        backgroundColor = .govinfoOrange?.withAlphaComponent(0)
     }
     
     func setSubviews(){
@@ -71,7 +71,7 @@ extension GovinfoLoaderViewUI {
             self.lottieView.play()
             self.loadingMessage.text = message
             UIView.animate(withDuration: 0.2) {
-                self.backgroundColor = .govinfoOrange.withAlphaComponent(0.4)
+                self.backgroundColor = .govinfoOrange?.withAlphaComponent(0.4)
                 self.lottieView.alpha = 1
             }
         }

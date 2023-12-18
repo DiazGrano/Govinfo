@@ -29,7 +29,7 @@ class GovinfoTextfieldViewUI: UITextField {
         didSet {
             self.attributedPlaceholder = NSAttributedString(
                 string: govinfoPlaceholder,
-                attributes: [NSAttributedString.Key.foregroundColor: UIColor.govinfoGray,
+                attributes: [NSAttributedString.Key.foregroundColor: UIColor.govinfoGray ?? UIColor.gray,
                              NSAttributedString.Key.font: UIFont.getComicFont(16)])
         }
     }
@@ -75,7 +75,7 @@ extension GovinfoTextfieldViewUI {
     }
     
     private func setTextfieldStatus(isDefault: Bool) {
-        layer.borderColor = isDefault ? UIColor.govinfoBlack.cgColor : UIColor.govinfoRed.cgColor
+        layer.borderColor = isDefault ? UIColor.govinfoBlack?.cgColor : UIColor.govinfoRed?.cgColor
         setShadowStatus(isDefault: isDefault)
         isTextValid = isDefault
     }

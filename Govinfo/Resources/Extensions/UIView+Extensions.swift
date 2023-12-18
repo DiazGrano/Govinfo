@@ -8,13 +8,13 @@
 import UIKit
 
 extension UIView {
-    func addGradient(_ topColor: UIColor = UIColor.govinfoWhite, _ bottomColor: UIColor = UIColor.govinfoGrayDark, isFilled: Bool = true) {
+    func addGradient(_ topColor: UIColor? = UIColor.govinfoWhite, _ bottomColor: UIColor? = UIColor.govinfoGrayDark, isFilled: Bool = true) {
         DispatchQueue.main.async {
             let subLayer = self.layer.sublayers?.first(where: { $0 is CAGradientLayer })
             subLayer?.removeFromSuperlayer()
             
             let gradient = CAGradientLayer()
-            gradient.colors = [topColor.cgColor, bottomColor.cgColor]
+            gradient.colors = [topColor?.cgColor ?? UIColor.white, bottomColor?.cgColor ?? UIColor.gray]
             gradient.locations = [isFilled ? 0.7 : 0, isFilled ? 1 : 0.3]
             gradient.frame = self.bounds
             self.clipsToBounds = true
@@ -31,12 +31,12 @@ extension UIView {
     }
     
     func setShadowStatus(isDefault: Bool) {
-        layer.shadowColor = isDefault ? UIColor.govinfoBlack.cgColor : UIColor.govinfoRed.cgColor
+        layer.shadowColor = isDefault ? UIColor.govinfoBlack?.cgColor : UIColor.govinfoRed?.cgColor
     }
     
     func addBorder() {
         layer.borderWidth = GovinfoConstants.Dimensions.borderWidth
-        layer.borderColor = UIColor.govinfoBlack.cgColor
+        layer.borderColor = UIColor.govinfoBlack?.cgColor
         layer.cornerRadius = GovinfoConstants.Dimensions.cornerRadius
     }
 }

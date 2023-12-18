@@ -25,7 +25,7 @@ class GovinfoCheckboxViewUI: UIView {
         let button = UIView()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 4
-        button.layer.borderColor = UIColor.govinfoBlack.cgColor
+        button.layer.borderColor = UIColor.govinfoBlack?.cgColor
         button.layer.borderWidth = 2
         return button
     }()

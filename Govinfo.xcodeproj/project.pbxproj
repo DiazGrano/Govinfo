@@ -19,6 +19,30 @@
 		DF2F67BF2B2D239200926E26 /* DetailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B82B2D239200926E26 /* DetailsEntity.swift */; };
 		DF2F67C22B2D27F700926E26 /* GovinfoLabelViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */; };
 		DF4AC9F22B303256006A3B63 /* BiometricHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */; };
+		DF588E1E2B30941D000D39FC /* CatalogPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E1D2B30941D000D39FC /* CatalogPresenterTests.swift */; };
+		DF588E202B309425000D39FC /* CatalogRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E1F2B309425000D39FC /* CatalogRouterTests.swift */; };
+		DF588E222B30942B000D39FC /* CatalogInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E212B30942B000D39FC /* CatalogInteractorTests.swift */; };
+		DF588E242B309431000D39FC /* CatalogViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E232B309431000D39FC /* CatalogViewControllerTests.swift */; };
+		DF588E262B309438000D39FC /* CatalogViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E252B309438000D39FC /* CatalogViewUITests.swift */; };
+		DF588E2B2B30944F000D39FC /* CatalogPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E2A2B30944F000D39FC /* CatalogPresenterMock.swift */; };
+		DF588E2D2B309456000D39FC /* CatalogInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E2C2B309456000D39FC /* CatalogInteractorMock.swift */; };
+		DF588E2F2B30945D000D39FC /* CatalogRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E2E2B30945D000D39FC /* CatalogRouterMock.swift */; };
+		DF588E312B309465000D39FC /* CatalogViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E302B309465000D39FC /* CatalogViewControllerMock.swift */; };
+		DF588E342B30AB34000D39FC /* DetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E332B30AB34000D39FC /* DetailsPresenterTests.swift */; };
+		DF588E362B30AB3B000D39FC /* DetailsRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E352B30AB3B000D39FC /* DetailsRouterTests.swift */; };
+		DF588E382B30AB41000D39FC /* DetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E372B30AB41000D39FC /* DetailsInteractorTests.swift */; };
+		DF588E3A2B30AB49000D39FC /* DetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E392B30AB49000D39FC /* DetailsViewControllerTests.swift */; };
+		DF588E3C2B30AB51000D39FC /* DetailsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E3B2B30AB51000D39FC /* DetailsViewUITests.swift */; };
+		DF588E3F2B30AB5D000D39FC /* DetailsPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E3E2B30AB5D000D39FC /* DetailsPresenterMock.swift */; };
+		DF588E412B30AB62000D39FC /* DetailsInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E402B30AB62000D39FC /* DetailsInteractorMock.swift */; };
+		DF588E432B30AB68000D39FC /* DetailsRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E422B30AB68000D39FC /* DetailsRouterMock.swift */; };
+		DF588E452B30AB6D000D39FC /* DetailsViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E442B30AB6D000D39FC /* DetailsViewControllerMock.swift */; };
+		DF588E472B30B0EA000D39FC /* LocationHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E462B30B0EA000D39FC /* LocationHelperMock.swift */; };
+		DF588E492B30B38A000D39FC /* URLOpenerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E482B30B38A000D39FC /* URLOpenerHelper.swift */; };
+		DF588E4B2B30B4C5000D39FC /* URLOpenerHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E4A2B30B4C5000D39FC /* URLOpenerHelperMock.swift */; };
+		DF588E532B30C367000D39FC /* FirebaseHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E522B30C367000D39FC /* FirebaseHelperTests.swift */; };
+		DF588E552B30C5DF000D39FC /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E542B30C5DF000D39FC /* NetworkManagerTests.swift */; };
+		DF588E572B30C8FD000D39FC /* URLOpenerHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF588E562B30C8FD000D39FC /* URLOpenerHelperTests.swift */; };
 		DF6D3B972B2A2EF70018EDCC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */; };
 		DF6D3B992B2A41780018EDCC /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */; };
 		DF6D3BA32B2A45430018EDCC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */; };
@@ -44,6 +68,8 @@
 		DF6D3BD82B2A967E0018EDCC /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BD72B2A967E0018EDCC /* UIView+Extensions.swift */; };
 		DF6D3BDB2B2A9F1F0018EDCC /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF6D3BDA2B2A9F1F0018EDCC /* Comic Sans MS.ttf */; };
 		DF6D3BDD2B2AA05E0018EDCC /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BDC2B2AA05E0018EDCC /* UIFont+Extensions.swift */; };
+		DF7E50862B30CA8300E04694 /* BiometricHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E50852B30CA8300E04694 /* BiometricHelperTests.swift */; };
+		DF7E50882B30CB9400E04694 /* LocationHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E50872B30CB9400E04694 /* LocationHelperTests.swift */; };
 		DF81B51F2B2E2B7600ABD967 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */; };
 		DF8EE2242B2B66D300A86395 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE2232B2B66D300A86395 /* GoogleService-Info.plist */; };
 		DF8EE22A2B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2292B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift */; };
@@ -124,6 +150,30 @@
 		DF2F67B82B2D239200926E26 /* DetailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEntity.swift; sourceTree = "<group>"; };
 		DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoLabelViewUI.swift; sourceTree = "<group>"; };
 		DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelperMock.swift; sourceTree = "<group>"; };
+		DF588E1D2B30941D000D39FC /* CatalogPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenterTests.swift; sourceTree = "<group>"; };
+		DF588E1F2B309425000D39FC /* CatalogRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRouterTests.swift; sourceTree = "<group>"; };
+		DF588E212B30942B000D39FC /* CatalogInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractorTests.swift; sourceTree = "<group>"; };
+		DF588E232B309431000D39FC /* CatalogViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewControllerTests.swift; sourceTree = "<group>"; };
+		DF588E252B309438000D39FC /* CatalogViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewUITests.swift; sourceTree = "<group>"; };
+		DF588E2A2B30944F000D39FC /* CatalogPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenterMock.swift; sourceTree = "<group>"; };
+		DF588E2C2B309456000D39FC /* CatalogInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractorMock.swift; sourceTree = "<group>"; };
+		DF588E2E2B30945D000D39FC /* CatalogRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRouterMock.swift; sourceTree = "<group>"; };
+		DF588E302B309465000D39FC /* CatalogViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewControllerMock.swift; sourceTree = "<group>"; };
+		DF588E332B30AB34000D39FC /* DetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenterTests.swift; sourceTree = "<group>"; };
+		DF588E352B30AB3B000D39FC /* DetailsRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouterTests.swift; sourceTree = "<group>"; };
+		DF588E372B30AB41000D39FC /* DetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractorTests.swift; sourceTree = "<group>"; };
+		DF588E392B30AB49000D39FC /* DetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTests.swift; sourceTree = "<group>"; };
+		DF588E3B2B30AB51000D39FC /* DetailsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewUITests.swift; sourceTree = "<group>"; };
+		DF588E3E2B30AB5D000D39FC /* DetailsPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenterMock.swift; sourceTree = "<group>"; };
+		DF588E402B30AB62000D39FC /* DetailsInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractorMock.swift; sourceTree = "<group>"; };
+		DF588E422B30AB68000D39FC /* DetailsRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouterMock.swift; sourceTree = "<group>"; };
+		DF588E442B30AB6D000D39FC /* DetailsViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerMock.swift; sourceTree = "<group>"; };
+		DF588E462B30B0EA000D39FC /* LocationHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelperMock.swift; sourceTree = "<group>"; };
+		DF588E482B30B38A000D39FC /* URLOpenerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpenerHelper.swift; sourceTree = "<group>"; };
+		DF588E4A2B30B4C5000D39FC /* URLOpenerHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpenerHelperMock.swift; sourceTree = "<group>"; };
+		DF588E522B30C367000D39FC /* FirebaseHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelperTests.swift; sourceTree = "<group>"; };
+		DF588E542B30C5DF000D39FC /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		DF588E562B30C8FD000D39FC /* URLOpenerHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpenerHelperTests.swift; sourceTree = "<group>"; };
 		DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -149,6 +199,8 @@
 		DF6D3BD72B2A967E0018EDCC /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		DF6D3BDA2B2A9F1F0018EDCC /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
 		DF6D3BDC2B2AA05E0018EDCC /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		DF7E50852B30CA8300E04694 /* BiometricHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelperTests.swift; sourceTree = "<group>"; };
+		DF7E50872B30CB9400E04694 /* LocationHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelperTests.swift; sourceTree = "<group>"; };
 		DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		DF8EE2232B2B66D300A86395 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DF8EE2292B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoBiometricButtonViewUI.swift; sourceTree = "<group>"; };
@@ -274,6 +326,109 @@
 			path = Labels;
 			sourceTree = "<group>";
 		};
+		DF588E1C2B3093DA000D39FC /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E292B309443000D39FC /* Mock */,
+				DF588E1D2B30941D000D39FC /* CatalogPresenterTests.swift */,
+				DF588E1F2B309425000D39FC /* CatalogRouterTests.swift */,
+				DF588E212B30942B000D39FC /* CatalogInteractorTests.swift */,
+				DF588E232B309431000D39FC /* CatalogViewControllerTests.swift */,
+				DF588E252B309438000D39FC /* CatalogViewUITests.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		DF588E292B309443000D39FC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E2A2B30944F000D39FC /* CatalogPresenterMock.swift */,
+				DF588E2C2B309456000D39FC /* CatalogInteractorMock.swift */,
+				DF588E2E2B30945D000D39FC /* CatalogRouterMock.swift */,
+				DF588E302B309465000D39FC /* CatalogViewControllerMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DF588E322B30A860000D39FC /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E3D2B30AB53000D39FC /* Mock */,
+				DF588E332B30AB34000D39FC /* DetailsPresenterTests.swift */,
+				DF588E352B30AB3B000D39FC /* DetailsRouterTests.swift */,
+				DF588E372B30AB41000D39FC /* DetailsInteractorTests.swift */,
+				DF588E392B30AB49000D39FC /* DetailsViewControllerTests.swift */,
+				DF588E3B2B30AB51000D39FC /* DetailsViewUITests.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DF588E3D2B30AB53000D39FC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E3E2B30AB5D000D39FC /* DetailsPresenterMock.swift */,
+				DF588E402B30AB62000D39FC /* DetailsInteractorMock.swift */,
+				DF588E422B30AB68000D39FC /* DetailsRouterMock.swift */,
+				DF588E442B30AB6D000D39FC /* DetailsViewControllerMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DF588E4C2B30C1FA000D39FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E502B30C233000D39FC /* Components */,
+				DF588E4E2B30C20C000D39FC /* Extensions */,
+				DF588E4D2B30C204000D39FC /* Common */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF588E4D2B30C204000D39FC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DF588E4F2B30C21F000D39FC /* Mock */,
+				DF588E562B30C8FD000D39FC /* URLOpenerHelperTests.swift */,
+				DF7E50852B30CA8300E04694 /* BiometricHelperTests.swift */,
+				DF7E50872B30CB9400E04694 /* LocationHelperTests.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF588E4E2B30C20C000D39FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5C52B301F8000941097 /* UIAlertController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF588E4F2B30C21F000D39FC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */,
+				DF588E462B30B0EA000D39FC /* LocationHelperMock.swift */,
+				DF588E4A2B30B4C5000D39FC /* URLOpenerHelperMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		DF588E502B30C233000D39FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF588E512B30C33E000D39FC /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5AB2B3005EF00941097 /* NetworkManagerMock.swift */,
+				DF9DD5DF2B302A3100941097 /* FirebaseHelperMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		DF6D3B952B2A2EDB0018EDCC /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +506,7 @@
 				DF6D3BB72B2A69AE0018EDCC /* GovinfoViewController.swift */,
 				DF8EE22B2B2B9BCA00A86395 /* BiometricAuthHelper.swift */,
 				DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */,
+				DF588E482B30B38A000D39FC /* URLOpenerHelper.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -419,8 +575,10 @@
 		DF9DD5A42B3001AC00941097 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				DF9DD5C72B30221F00941097 /* Login */,
 				DF9DD5A52B3001B300941097 /* Splash */,
+				DF9DD5C72B30221F00941097 /* Login */,
+				DF588E1C2B3093DA000D39FC /* Catalog */,
+				DF588E322B30A860000D39FC /* Details */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -442,8 +600,9 @@
 		DF9DD5A92B3005C800941097 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				DF9DD5AB2B3005EF00941097 /* NetworkManagerMock.swift */,
-				DF9DD5DF2B302A3100941097 /* FirebaseHelperMock.swift */,
+				DF588E512B30C33E000D39FC /* Mock */,
+				DF588E522B30C367000D39FC /* FirebaseHelperTests.swift */,
+				DF588E542B30C5DF000D39FC /* NetworkManagerTests.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -457,15 +616,6 @@
 				DF9DD5B82B300D4700941097 /* SplashViewControllerMock.swift */,
 			);
 			path = Mocks;
-			sourceTree = "<group>";
-		};
-		DF9DD5C42B301F6C00941097 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				DF9DD5C52B301F8000941097 /* UIAlertController+Extension.swift */,
-				DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		DF9DD5C72B30221F00941097 /* Login */ = {
@@ -538,9 +688,9 @@
 		DFA9F3DE2B2A15B7004B24AE /* GovinfoTests */ = {
 			isa = PBXGroup;
 			children = (
+				DF588E4C2B30C1FA000D39FC /* Resources */,
 				DF9DD5A82B30043900941097 /* Govinfo.xctestplan */,
 				DFFACE162B302D6E009E8FC7 /* GovinfoTests.swift */,
-				DF9DD5C42B301F6C00941097 /* Utils */,
 				DF9DD5A92B3005C800941097 /* Network */,
 				DF9DD5A42B3001AC00941097 /* Modules */,
 			);
@@ -717,6 +867,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF588E492B30B38A000D39FC /* URLOpenerHelper.swift in Sources */,
 				DFA9E9862B2A26640028DDE8 /* SplashProtocols.swift in Sources */,
 				DF6D3B972B2A2EF70018EDCC /* NetworkManager.swift in Sources */,
 				DF8EE23D2B2C198100A86395 /* CatalogEntity.swift in Sources */,
@@ -776,29 +927,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7E50882B30CB9400E04694 /* LocationHelperTests.swift in Sources */,
+				DF588E312B309465000D39FC /* CatalogViewControllerMock.swift in Sources */,
 				DF9DD5CB2B3022F800941097 /* LoginRouterTests.swift in Sources */,
+				DF588E4B2B30B4C5000D39FC /* URLOpenerHelperMock.swift in Sources */,
+				DF588E362B30AB3B000D39FC /* DetailsRouterTests.swift in Sources */,
 				DF9DD5A72B3001DB00941097 /* SplasRouterTests.swift in Sources */,
 				DF9DD5B32B300ADA00941097 /* SplashPresenterTests.swift in Sources */,
 				DF9DD5AC2B3005EF00941097 /* NetworkManagerMock.swift in Sources */,
+				DF588E242B309431000D39FC /* CatalogViewControllerTests.swift in Sources */,
+				DF588E3C2B30AB51000D39FC /* DetailsViewUITests.swift in Sources */,
 				DF9DD5CD2B3022FD00941097 /* LoginInteractorTests.swift in Sources */,
+				DF588E412B30AB62000D39FC /* DetailsInteractorMock.swift in Sources */,
 				DF9DD5AE2B3007F400941097 /* SplashInteractorTests.swift in Sources */,
 				DF9DD5B12B3008F000941097 /* SplashPresenterMock.swift in Sources */,
 				DF9DD5CF2B30230300941097 /* LoginViewControllerTests.swift in Sources */,
+				DF588E552B30C5DF000D39FC /* NetworkManagerTests.swift in Sources */,
+				DF588E382B30AB41000D39FC /* DetailsInteractorTests.swift in Sources */,
 				DFFACE172B302D6E009E8FC7 /* GovinfoTests.swift in Sources */,
+				DF588E342B30AB34000D39FC /* DetailsPresenterTests.swift in Sources */,
 				DF9DD5B92B300D4700941097 /* SplashViewControllerMock.swift in Sources */,
 				DF9DD5BB2B3011C100941097 /* SplashViewcontrollerTests.swift in Sources */,
+				DF588E2F2B30945D000D39FC /* CatalogRouterMock.swift in Sources */,
 				DF9DD5DA2B30232E00941097 /* LoginRouterMock.swift in Sources */,
+				DF7E50862B30CA8300E04694 /* BiometricHelperTests.swift in Sources */,
 				DF9DD5C62B301F8000941097 /* UIAlertController+Extension.swift in Sources */,
+				DF588E432B30AB68000D39FC /* DetailsRouterMock.swift in Sources */,
 				DF4AC9F22B303256006A3B63 /* BiometricHelperMock.swift in Sources */,
+				DF588E2B2B30944F000D39FC /* CatalogPresenterMock.swift in Sources */,
 				DF9DD5D62B30232100941097 /* LoginPresenterMock.swift in Sources */,
+				DF588E1E2B30941D000D39FC /* CatalogPresenterTests.swift in Sources */,
 				DF9DD5C12B301E1000941097 /* SplashViewUITests.swift in Sources */,
 				DF9DD5E02B302A3100941097 /* FirebaseHelperMock.swift in Sources */,
+				DF588E572B30C8FD000D39FC /* URLOpenerHelperTests.swift in Sources */,
+				DF588E202B309425000D39FC /* CatalogRouterTests.swift in Sources */,
+				DF588E2D2B309456000D39FC /* CatalogInteractorMock.swift in Sources */,
+				DF588E532B30C367000D39FC /* FirebaseHelperTests.swift in Sources */,
 				DF9DD5C32B301F2000941097 /* SplashEntityTests.swift in Sources */,
 				DF9DD5DC2B30233400941097 /* LoginViewControllerMock.swift in Sources */,
+				DF588E222B30942B000D39FC /* CatalogInteractorTests.swift in Sources */,
 				DF9DD5B72B300B5F00941097 /* SplasRouterMock.swift in Sources */,
 				DF9DD5C92B3022F100941097 /* LoginPresenterTests.swift in Sources */,
+				DF588E452B30AB6D000D39FC /* DetailsViewControllerMock.swift in Sources */,
 				DF9DD5D82B30232800941097 /* LoginInteractorMock.swift in Sources */,
 				DF9DD5D12B30230900941097 /* LoginViewUITests.swift in Sources */,
+				DF588E3F2B30AB5D000D39FC /* DetailsPresenterMock.swift in Sources */,
+				DF588E262B309438000D39FC /* CatalogViewUITests.swift in Sources */,
+				DF588E3A2B30AB49000D39FC /* DetailsViewControllerTests.swift in Sources */,
+				DF588E472B30B0EA000D39FC /* LocationHelperMock.swift in Sources */,
 				DF9DD5B52B300B1900941097 /* SplashInteractorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

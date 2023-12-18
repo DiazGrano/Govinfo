@@ -22,7 +22,7 @@ class LocationHelper: NSObject {
         }
     }
     
-    func getCoordinates(completion: ((String, String) -> Void)?, notAvailable: @escaping () -> Void) {
+    func getCoordinates(completion: ((_ latitude: String, _ longitude: String) -> Void)?, notAvailable: @escaping () -> Void) {
         DispatchQueue.global(qos: .userInitiated).async {
             guard CLLocationManager.locationServicesEnabled(),
                   CLLocationManager.authorizationStatus() != .denied,

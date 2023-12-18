@@ -15,8 +15,6 @@ enum RequestMethod: String {
 class NetworkManager {
     func request<responseType: Decodable>(url: String,
                                           method: RequestMethod,
-                                          body: Codable? = nil,
-                                          headers: [String: String] = [:],
                                           responseType: responseType.Type,
                                           success: @escaping (_ modelResponse: responseType) -> Void,
                                           failure: @escaping (_ errorResponse: ErrorResponse) -> Void) {
@@ -33,8 +31,6 @@ class NetworkManager {
     
     func request(url: String,
                  method: RequestMethod,
-                 body: Codable? = nil,
-                 headers: [String: String] = [:],
                  success: @escaping (_ responseData: Data) -> Void,
                  failure: @escaping (_ errorResponse: ErrorResponse) -> Void) {
         guard let notNilURL = URL(string: url) else {
@@ -44,19 +40,6 @@ class NetworkManager {
         
         var request = URLRequest(url: notNilURL)
         request.httpMethod = method.rawValue
-        
-        if let nonNilBody = body {
-            for header in headers {
-                request.setValue(header.value, forHTTPHeaderField: header.key)
-            }
-            
-            guard let bodyData = try? JSONEncoder().encode(nonNilBody) else {
-                failure(ErrorResponse.getDefaultError(type: .badRequestBody))
-                return
-            }
-            
-            request.httpBody = bodyData
-        }
         
         URLSession.shared.dataTask(with: request) { responseData, responseURL, error in
             guard let notNilResponseData = responseData, let httpErrorResponse = responseURL as? HTTPURLResponse else {

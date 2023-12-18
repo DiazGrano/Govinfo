@@ -19,7 +19,7 @@ class NetworkManagerMock: NetworkManager {
         self.errorModel = errorModel
     }
     
-    override func request(url: String, method: RequestMethod, body: Codable? = nil, headers: [String : String] = [:], success: @escaping (Data) -> Void, failure: @escaping (ErrorResponse) -> Void) {
+    override func request(url: String, method: RequestMethod, success: @escaping (Data) -> Void, failure: @escaping (ErrorResponse) -> Void) {
         guard isSuccess else {
             failure(errorModel)
             return
@@ -33,7 +33,7 @@ class NetworkManagerMock: NetworkManager {
         success(responseData)
     }
     
-    override func request<responseType>(url: String, method: RequestMethod, body: Codable? = nil, headers: [String : String] = [:], responseType: responseType.Type, success: @escaping (responseType) -> Void, failure: @escaping (ErrorResponse) -> Void) where responseType : Decodable {
+    override func request<responseType>(url: String, method: RequestMethod, responseType: responseType.Type, success: @escaping (responseType) -> Void, failure: @escaping (ErrorResponse) -> Void) where responseType : Decodable {
         guard isSuccess else {
             failure(errorModel)
             return
