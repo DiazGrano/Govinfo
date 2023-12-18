@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  Govinfo
+
+  Created by Luis Enrique Diaz Grano on 13/12/23.
+  
+*/
+
+
+
+"Textfields.user" = "Username";
+"Textfields.pass" = "Password";
+"Textfields.search" = "Search organization";
+
+"Buttons.login" = "Sign in";
+"Buttons.register" = "Sign up";
+"Buttons.google" = "Sign in using Google account";
+"Buttons.biometricsCheckbox" = "Enable biometric auth";
+"Buttons.manually" = "Sign in manually instead";
+"Buttons.share" = "Share this awesome fact!";
+
+"Biometrics.authMesasage" = "Authenticate using biometrics";
+"Biometrics.fallbackMessage" = "Use passcode";
+
+"Separators.or" = "Or";
+
+"Alerts.title.oops" = "Oops!";
+"Alerts.title.odd" = "It's weird...";
+
+"Alerts.code.code" = "Code";
+
+"Alerts.message.unknown" = "Something happened, please try again!";
+"Alerts.message.badURL" = "Invalid URL. Please try again later!";
+"Alerts.message.badResponseBody" = "Malformed response body. Please try again later!";
+"Alerts.message.badRequestBody" = "Malformed request body. Please try again later!";
+"Alerts.message.noInternet" = "It seems that you have no internet connection, please try again later!";
+"Alerts.message.biometric" = "It seems that your device does not support biometric authentication!";
+"Alerts.message.whatsapp" = "It seems that your device does not have installed WhatsApp, please install it to be able to share this awesome fact with your friends and family!";
+
+"Alerts.action.retry" = "Try again";
+"Alerts.action.ok" = "Ok";
+
+"Splash.loadingMessage" = "Loading awesome facts!";
+
+"Login.title" = "Sign in to checkout some awesome facts!";
+
+"Catalog.title" = "Awesome facts!";
+
+"Details.title" = "Fact details";
+"Details.shareToWhatsAppMessageTitle" = "*Checkout this awesome fact details!*";
+"Details.coordiantes" = "*Shared from:*\n(lat: %@, long: %@)";
+

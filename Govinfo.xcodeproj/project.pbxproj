@@ -7,16 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2F67AA2B2CC89400926E26 /* biometric.json in Resources */ = {isa = PBXBuildFile; fileRef = DF2F67A92B2CC89400926E26 /* biometric.json */; };
+		DF2F67AD2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67AC2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift */; };
+		DF2F67B02B2D05D100926E26 /* CatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67AF2B2D05D100926E26 /* CatalogViewCell.swift */; };
+		DF2F67B92B2D239200926E26 /* DetailsViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B22B2D239200926E26 /* DetailsViewUI.swift */; };
+		DF2F67BA2B2D239200926E26 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B32B2D239200926E26 /* DetailsPresenter.swift */; };
+		DF2F67BB2B2D239200926E26 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B42B2D239200926E26 /* DetailsRouter.swift */; };
+		DF2F67BC2B2D239200926E26 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B52B2D239200926E26 /* DetailsViewController.swift */; };
+		DF2F67BD2B2D239200926E26 /* DetailsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B62B2D239200926E26 /* DetailsProtocols.swift */; };
+		DF2F67BE2B2D239200926E26 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B72B2D239200926E26 /* DetailsInteractor.swift */; };
+		DF2F67BF2B2D239200926E26 /* DetailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B82B2D239200926E26 /* DetailsEntity.swift */; };
+		DF2F67C22B2D27F700926E26 /* GovinfoLabelViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */; };
+		DF6D3B972B2A2EF70018EDCC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */; };
+		DF6D3B992B2A41780018EDCC /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */; };
+		DF6D3BA32B2A45430018EDCC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */; };
+		DF6D3BA52B2A4C0E0018EDCC /* URLsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BA42B2A4C0E0018EDCC /* URLsHelper.swift */; };
+		DF6D3BA92B2A5F7E0018EDCC /* gatongo.json in Resources */ = {isa = PBXBuildFile; fileRef = DF6D3BA82B2A5F7E0018EDCC /* gatongo.json */; };
+		DF6D3BAD2B2A61E60018EDCC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF6D3BAF2B2A61E60018EDCC /* Localizable.strings */; };
+		DF6D3BB12B2A67A80018EDCC /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BB02B2A67A80018EDCC /* Bundle+Extensions.swift */; };
+		DF6D3BB42B2A689B0018EDCC /* GovinfoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BB32B2A689B0018EDCC /* GovinfoConstants.swift */; };
+		DF6D3BB82B2A69AE0018EDCC /* GovinfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BB72B2A69AE0018EDCC /* GovinfoViewController.swift */; };
+		DF6D3BC02B2A6C530018EDCC /* LoginViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BB92B2A6C530018EDCC /* LoginViewUI.swift */; };
+		DF6D3BC12B2A6C530018EDCC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBA2B2A6C530018EDCC /* LoginPresenter.swift */; };
+		DF6D3BC22B2A6C530018EDCC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBB2B2A6C530018EDCC /* LoginRouter.swift */; };
+		DF6D3BC32B2A6C530018EDCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBC2B2A6C530018EDCC /* LoginViewController.swift */; };
+		DF6D3BC42B2A6C530018EDCC /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBD2B2A6C530018EDCC /* LoginProtocols.swift */; };
+		DF6D3BC52B2A6C530018EDCC /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBE2B2A6C530018EDCC /* LoginInteractor.swift */; };
+		DF6D3BC62B2A6C530018EDCC /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BBF2B2A6C530018EDCC /* LoginEntity.swift */; };
+		DF6D3BCA2B2A6C8D0018EDCC /* GovinfoLoaderViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BC92B2A6C8D0018EDCC /* GovinfoLoaderViewUI.swift */; };
+		DF6D3BCC2B2A71A00018EDCC /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BCB2B2A71A00018EDCC /* UIApplication+Extension.swift */; };
+		DF6D3BCF2B2A86CC0018EDCC /* GovinfoTextfieldViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BCE2B2A86CC0018EDCC /* GovinfoTextfieldViewUI.swift */; };
+		DF6D3BD12B2A8CBE0018EDCC /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BD02B2A8CBE0018EDCC /* UIColor+Extensions.swift */; };
+		DF6D3BD32B2A8DB80018EDCC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6D3BD22B2A8DB80018EDCC /* Colors.xcassets */; };
+		DF6D3BD62B2A90900018EDCC /* GovinfoButtonViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BD52B2A90900018EDCC /* GovinfoButtonViewUI.swift */; };
+		DF6D3BD82B2A967E0018EDCC /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BD72B2A967E0018EDCC /* UIView+Extensions.swift */; };
+		DF6D3BDB2B2A9F1F0018EDCC /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF6D3BDA2B2A9F1F0018EDCC /* Comic Sans MS.ttf */; };
+		DF6D3BDD2B2AA05E0018EDCC /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BDC2B2AA05E0018EDCC /* UIFont+Extensions.swift */; };
+		DF81B51F2B2E2B7600ABD967 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */; };
+		DF8EE2242B2B66D300A86395 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF8EE2232B2B66D300A86395 /* GoogleService-Info.plist */; };
+		DF8EE22A2B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2292B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift */; };
+		DF8EE22C2B2B9BCA00A86395 /* BiometricAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE22B2B2B9BCA00A86395 /* BiometricAuthHelper.swift */; };
+		DF8EE22E2B2BA74100A86395 /* GovinfoCheckboxViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE22D2B2BA74100A86395 /* GovinfoCheckboxViewUI.swift */; };
+		DF8EE2372B2C198100A86395 /* CatalogViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2302B2C198100A86395 /* CatalogViewUI.swift */; };
+		DF8EE2382B2C198100A86395 /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2312B2C198100A86395 /* CatalogPresenter.swift */; };
+		DF8EE2392B2C198100A86395 /* CatalogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2322B2C198100A86395 /* CatalogRouter.swift */; };
+		DF8EE23A2B2C198100A86395 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2332B2C198100A86395 /* CatalogViewController.swift */; };
+		DF8EE23B2B2C198100A86395 /* CatalogProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2342B2C198100A86395 /* CatalogProtocols.swift */; };
+		DF8EE23C2B2C198100A86395 /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2352B2C198100A86395 /* CatalogInteractor.swift */; };
+		DF8EE23D2B2C198100A86395 /* CatalogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2362B2C198100A86395 /* CatalogEntity.swift */; };
+		DFA9E9822B2A26640028DDE8 /* SplashViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97B2B2A26640028DDE8 /* SplashViewUI.swift */; };
+		DFA9E9832B2A26640028DDE8 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97C2B2A26640028DDE8 /* SplashPresenter.swift */; };
+		DFA9E9842B2A26640028DDE8 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97D2B2A26640028DDE8 /* SplashRouter.swift */; };
+		DFA9E9852B2A26640028DDE8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97E2B2A26640028DDE8 /* SplashViewController.swift */; };
+		DFA9E9862B2A26640028DDE8 /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97F2B2A26640028DDE8 /* SplashProtocols.swift */; };
+		DFA9E9872B2A26640028DDE8 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E9802B2A26640028DDE8 /* SplashInteractor.swift */; };
+		DFA9E9882B2A26640028DDE8 /* SplashEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E9812B2A26640028DDE8 /* SplashEntity.swift */; };
 		DFA9F3C62B2A15B6004B24AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3C52B2A15B6004B24AE /* AppDelegate.swift */; };
-		DFA9F3C82B2A15B6004B24AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3C72B2A15B6004B24AE /* SceneDelegate.swift */; };
-		DFA9F3CA2B2A15B6004B24AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3C92B2A15B6004B24AE /* ViewController.swift */; };
-		DFA9F3CD2B2A15B6004B24AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA9F3CB2B2A15B6004B24AE /* Main.storyboard */; };
-		DFA9F3D02B2A15B6004B24AE /* Govinfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3CE2B2A15B6004B24AE /* Govinfo.xcdatamodeld */; };
 		DFA9F3D22B2A15B6004B24AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA9F3D12B2A15B6004B24AE /* Assets.xcassets */; };
-		DFA9F3D52B2A15B6004B24AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA9F3D32B2A15B6004B24AE /* LaunchScreen.storyboard */; };
 		DFA9F3E02B2A15B7004B24AE /* GovinfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3DF2B2A15B7004B24AE /* GovinfoTests.swift */; };
 		DFA9F3EA2B2A15B7004B24AE /* GovinfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3E92B2A15B7004B24AE /* GovinfoUITests.swift */; };
 		DFA9F3EC2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */; };
+		DFB302932B2FD444002CD2C4 /* NetworkConnectionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +88,71 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2F67A92B2CC89400926E26 /* biometric.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = biometric.json; sourceTree = "<group>"; };
+		DF2F67AC2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoSeparatorViewUI.swift; sourceTree = "<group>"; };
+		DF2F67AF2B2D05D100926E26 /* CatalogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewCell.swift; sourceTree = "<group>"; };
+		DF2F67B22B2D239200926E26 /* DetailsViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewUI.swift; sourceTree = "<group>"; };
+		DF2F67B32B2D239200926E26 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		DF2F67B42B2D239200926E26 /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
+		DF2F67B52B2D239200926E26 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DF2F67B62B2D239200926E26 /* DetailsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProtocols.swift; sourceTree = "<group>"; };
+		DF2F67B72B2D239200926E26 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		DF2F67B82B2D239200926E26 /* DetailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEntity.swift; sourceTree = "<group>"; };
+		DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoLabelViewUI.swift; sourceTree = "<group>"; };
+		DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		DF6D3BA42B2A4C0E0018EDCC /* URLsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLsHelper.swift; sourceTree = "<group>"; };
+		DF6D3BA82B2A5F7E0018EDCC /* gatongo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gatongo.json; sourceTree = "<group>"; };
+		DF6D3BAE2B2A61E60018EDCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF6D3BB02B2A67A80018EDCC /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		DF6D3BB32B2A689B0018EDCC /* GovinfoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoConstants.swift; sourceTree = "<group>"; };
+		DF6D3BB72B2A69AE0018EDCC /* GovinfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoViewController.swift; sourceTree = "<group>"; };
+		DF6D3BB92B2A6C530018EDCC /* LoginViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewUI.swift; sourceTree = "<group>"; };
+		DF6D3BBA2B2A6C530018EDCC /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		DF6D3BBB2B2A6C530018EDCC /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		DF6D3BBC2B2A6C530018EDCC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF6D3BBD2B2A6C530018EDCC /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		DF6D3BBE2B2A6C530018EDCC /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		DF6D3BBF2B2A6C530018EDCC /* LoginEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
+		DF6D3BC92B2A6C8D0018EDCC /* GovinfoLoaderViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoLoaderViewUI.swift; sourceTree = "<group>"; };
+		DF6D3BCB2B2A71A00018EDCC /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DF6D3BCE2B2A86CC0018EDCC /* GovinfoTextfieldViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoTextfieldViewUI.swift; sourceTree = "<group>"; };
+		DF6D3BD02B2A8CBE0018EDCC /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DF6D3BD22B2A8DB80018EDCC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DF6D3BD52B2A90900018EDCC /* GovinfoButtonViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoButtonViewUI.swift; sourceTree = "<group>"; };
+		DF6D3BD72B2A967E0018EDCC /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DF6D3BDA2B2A9F1F0018EDCC /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
+		DF6D3BDC2B2AA05E0018EDCC /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		DF8EE2232B2B66D300A86395 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF8EE2292B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoBiometricButtonViewUI.swift; sourceTree = "<group>"; };
+		DF8EE22B2B2B9BCA00A86395 /* BiometricAuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthHelper.swift; sourceTree = "<group>"; };
+		DF8EE22D2B2BA74100A86395 /* GovinfoCheckboxViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoCheckboxViewUI.swift; sourceTree = "<group>"; };
+		DF8EE2302B2C198100A86395 /* CatalogViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewUI.swift; sourceTree = "<group>"; };
+		DF8EE2312B2C198100A86395 /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		DF8EE2322B2C198100A86395 /* CatalogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRouter.swift; sourceTree = "<group>"; };
+		DF8EE2332B2C198100A86395 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		DF8EE2342B2C198100A86395 /* CatalogProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProtocols.swift; sourceTree = "<group>"; };
+		DF8EE2352B2C198100A86395 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
+		DF8EE2362B2C198100A86395 /* CatalogEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogEntity.swift; sourceTree = "<group>"; };
+		DFA9E97B2B2A26640028DDE8 /* SplashViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewUI.swift; sourceTree = "<group>"; };
+		DFA9E97C2B2A26640028DDE8 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		DFA9E97D2B2A26640028DDE8 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		DFA9E97E2B2A26640028DDE8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		DFA9E97F2B2A26640028DDE8 /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		DFA9E9802B2A26640028DDE8 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		DFA9E9812B2A26640028DDE8 /* SplashEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntity.swift; sourceTree = "<group>"; };
 		DFA9F3C22B2A15B6004B24AE /* Govinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Govinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA9F3C52B2A15B6004B24AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFA9F3C72B2A15B6004B24AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DFA9F3C92B2A15B6004B24AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFA9F3CC2B2A15B6004B24AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFA9F3CF2B2A15B6004B24AE /* Govinfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Govinfo.xcdatamodel; sourceTree = "<group>"; };
 		DFA9F3D12B2A15B6004B24AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFA9F3D42B2A15B6004B24AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFA9F3D62B2A15B6004B24AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA9F3DB2B2A15B7004B24AE /* GovinfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovinfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA9F3DF2B2A15B7004B24AE /* GovinfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoTests.swift; sourceTree = "<group>"; };
 		DFA9F3E52B2A15B7004B24AE /* GovinfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovinfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA9F3E92B2A15B7004B24AE /* GovinfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoUITests.swift; sourceTree = "<group>"; };
 		DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectionChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +180,200 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521E700A8DF362D2ABDB14C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF2F67AB2B2CE4D300926E26 /* Separators */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67AC2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift */,
+			);
+			path = Separators;
+			sourceTree = "<group>";
+		};
+		DF2F67AE2B2D05C000926E26 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67AF2B2D05D100926E26 /* CatalogViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DF2F67B12B2D238400926E26 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67B22B2D239200926E26 /* DetailsViewUI.swift */,
+				DF2F67B32B2D239200926E26 /* DetailsPresenter.swift */,
+				DF2F67B42B2D239200926E26 /* DetailsRouter.swift */,
+				DF2F67B52B2D239200926E26 /* DetailsViewController.swift */,
+				DF2F67B62B2D239200926E26 /* DetailsProtocols.swift */,
+				DF2F67B72B2D239200926E26 /* DetailsInteractor.swift */,
+				DF2F67B82B2D239200926E26 /* DetailsEntity.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DF2F67C02B2D27DD00926E26 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		DF6D3B952B2A2EDB0018EDCC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */,
+				DF6D3BA42B2A4C0E0018EDCC /* URLsHelper.swift */,
+				DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF6D3B9A2B2A44390018EDCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BD92B2A9EB10018EDCC /* Fonts */,
+				DF6D3BC72B2A6C750018EDCC /* Components */,
+				DF6D3BB62B2A699C0018EDCC /* Common */,
+				DF6D3BA72B2A5F710018EDCC /* Lotties */,
+				DF6D3BA12B2A45310018EDCC /* Extensions */,
+				DF6D3B9B2B2A44400018EDCC /* Localizables */,
+				DF6D3BD22B2A8DB80018EDCC /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF6D3B9B2B2A44400018EDCC /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BAF2B2A61E60018EDCC /* Localizable.strings */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+		DF6D3BA12B2A45310018EDCC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */,
+				DF6D3BB02B2A67A80018EDCC /* Bundle+Extensions.swift */,
+				DF6D3BCB2B2A71A00018EDCC /* UIApplication+Extension.swift */,
+				DF6D3BD02B2A8CBE0018EDCC /* UIColor+Extensions.swift */,
+				DF6D3BD72B2A967E0018EDCC /* UIView+Extensions.swift */,
+				DF6D3BDC2B2AA05E0018EDCC /* UIFont+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF6D3BA72B2A5F710018EDCC /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67A92B2CC89400926E26 /* biometric.json */,
+				DF6D3BA82B2A5F7E0018EDCC /* gatongo.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		DF6D3BB52B2A69670018EDCC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BB92B2A6C530018EDCC /* LoginViewUI.swift */,
+				DF6D3BBA2B2A6C530018EDCC /* LoginPresenter.swift */,
+				DF6D3BBB2B2A6C530018EDCC /* LoginRouter.swift */,
+				DF6D3BBC2B2A6C530018EDCC /* LoginViewController.swift */,
+				DF6D3BBD2B2A6C530018EDCC /* LoginProtocols.swift */,
+				DF6D3BBE2B2A6C530018EDCC /* LoginInteractor.swift */,
+				DF6D3BBF2B2A6C530018EDCC /* LoginEntity.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DF6D3BB62B2A699C0018EDCC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BB32B2A689B0018EDCC /* GovinfoConstants.swift */,
+				DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */,
+				DF6D3BB72B2A69AE0018EDCC /* GovinfoViewController.swift */,
+				DF8EE22B2B2B9BCA00A86395 /* BiometricAuthHelper.swift */,
+				DF81B51E2B2E2B7600ABD967 /* LocationHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF6D3BC72B2A6C750018EDCC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67C02B2D27DD00926E26 /* Labels */,
+				DF2F67AB2B2CE4D300926E26 /* Separators */,
+				DF6D3BD42B2A907E0018EDCC /* Buttons */,
+				DF6D3BCD2B2A86AE0018EDCC /* Textfields */,
+				DF6D3BC82B2A6C7B0018EDCC /* Loaders */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF6D3BC82B2A6C7B0018EDCC /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BC92B2A6C8D0018EDCC /* GovinfoLoaderViewUI.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		DF6D3BCD2B2A86AE0018EDCC /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BCE2B2A86CC0018EDCC /* GovinfoTextfieldViewUI.swift */,
+			);
+			path = Textfields;
+			sourceTree = "<group>";
+		};
+		DF6D3BD42B2A907E0018EDCC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BD52B2A90900018EDCC /* GovinfoButtonViewUI.swift */,
+				DF8EE2292B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift */,
+				DF8EE22D2B2BA74100A86395 /* GovinfoCheckboxViewUI.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		DF6D3BD92B2A9EB10018EDCC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF6D3BDA2B2A9F1F0018EDCC /* Comic Sans MS.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DF8EE22F2B2C196F00A86395 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67AE2B2D05C000926E26 /* Cells */,
+				DF8EE2302B2C198100A86395 /* CatalogViewUI.swift */,
+				DF8EE2312B2C198100A86395 /* CatalogPresenter.swift */,
+				DF8EE2322B2C198100A86395 /* CatalogRouter.swift */,
+				DF8EE2332B2C198100A86395 /* CatalogViewController.swift */,
+				DF8EE2342B2C198100A86395 /* CatalogProtocols.swift */,
+				DF8EE2352B2C198100A86395 /* CatalogInteractor.swift */,
+				DF8EE2362B2C198100A86395 /* CatalogEntity.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		DFA9E9892B2A27BC0028DDE8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFA9F3C52B2A15B6004B24AE /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		DFA9F3B92B2A15B6004B24AE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +381,7 @@
 				DFA9F3DE2B2A15B7004B24AE /* GovinfoTests */,
 				DFA9F3E82B2A15B7004B24AE /* GovinfoUITests */,
 				DFA9F3C32B2A15B6004B24AE /* Products */,
+				521E700A8DF362D2ABDB14C0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +398,13 @@
 		DFA9F3C42B2A15B6004B24AE /* Govinfo */ = {
 			isa = PBXGroup;
 			children = (
-				DFA9F3C52B2A15B6004B24AE /* AppDelegate.swift */,
-				DFA9F3C72B2A15B6004B24AE /* SceneDelegate.swift */,
-				DFA9F3C92B2A15B6004B24AE /* ViewController.swift */,
-				DFA9F3CB2B2A15B6004B24AE /* Main.storyboard */,
+				DF8EE2232B2B66D300A86395 /* GoogleService-Info.plist */,
+				DFA9E9892B2A27BC0028DDE8 /* Base */,
+				DF6D3B9A2B2A44390018EDCC /* Resources */,
+				DF6D3B952B2A2EDB0018EDCC /* Network */,
+				DFA9F3F82B2A1680004B24AE /* Modules */,
 				DFA9F3D12B2A15B6004B24AE /* Assets.xcassets */,
-				DFA9F3D32B2A15B6004B24AE /* LaunchScreen.storyboard */,
 				DFA9F3D62B2A15B6004B24AE /* Info.plist */,
-				DFA9F3CE2B2A15B6004B24AE /* Govinfo.xcdatamodeld */,
 			);
 			path = Govinfo;
 			sourceTree = "<group>";
@@ -128,6 +424,31 @@
 				DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */,
 			);
 			path = GovinfoUITests;
+			sourceTree = "<group>";
+		};
+		DFA9F3F82B2A1680004B24AE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DF2F67B12B2D238400926E26 /* Details */,
+				DF8EE22F2B2C196F00A86395 /* Catalog */,
+				DFA9F3F92B2A1688004B24AE /* Splash */,
+				DF6D3BB52B2A69670018EDCC /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DFA9F3F92B2A1688004B24AE /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DFA9E97B2B2A26640028DDE8 /* SplashViewUI.swift */,
+				DFA9E97C2B2A26640028DDE8 /* SplashPresenter.swift */,
+				DFA9E97D2B2A26640028DDE8 /* SplashRouter.swift */,
+				DFA9E97E2B2A26640028DDE8 /* SplashViewController.swift */,
+				DFA9E97F2B2A26640028DDE8 /* SplashProtocols.swift */,
+				DFA9E9802B2A26640028DDE8 /* SplashInteractor.swift */,
+				DFA9E9812B2A26640028DDE8 /* SplashEntity.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +535,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = DFA9F3B92B2A15B6004B24AE;
 			productRefGroup = DFA9F3C32B2A15B6004B24AE /* Products */;
@@ -234,9 +555,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA9F3D52B2A15B6004B24AE /* LaunchScreen.storyboard in Resources */,
 				DFA9F3D22B2A15B6004B24AE /* Assets.xcassets in Resources */,
-				DFA9F3CD2B2A15B6004B24AE /* Main.storyboard in Resources */,
+				DF6D3BDB2B2A9F1F0018EDCC /* Comic Sans MS.ttf in Resources */,
+				DF6D3BD32B2A8DB80018EDCC /* Colors.xcassets in Resources */,
+				DF6D3BAD2B2A61E60018EDCC /* Localizable.strings in Resources */,
+				DF2F67AA2B2CC89400926E26 /* biometric.json in Resources */,
+				DF6D3BA92B2A5F7E0018EDCC /* gatongo.json in Resources */,
+				DF8EE2242B2B66D300A86395 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +586,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA9F3D02B2A15B6004B24AE /* Govinfo.xcdatamodeld in Sources */,
-				DFA9F3CA2B2A15B6004B24AE /* ViewController.swift in Sources */,
+				DFA9E9862B2A26640028DDE8 /* SplashProtocols.swift in Sources */,
+				DF6D3B972B2A2EF70018EDCC /* NetworkManager.swift in Sources */,
+				DF8EE23D2B2C198100A86395 /* CatalogEntity.swift in Sources */,
+				DFA9E9842B2A26640028DDE8 /* SplashRouter.swift in Sources */,
+				DF6D3BA32B2A45430018EDCC /* String+Extensions.swift in Sources */,
+				DFA9E9832B2A26640028DDE8 /* SplashPresenter.swift in Sources */,
+				DF6D3BA52B2A4C0E0018EDCC /* URLsHelper.swift in Sources */,
+				DFA9E9872B2A26640028DDE8 /* SplashInteractor.swift in Sources */,
+				DFB302932B2FD444002CD2C4 /* NetworkConnectionChecker.swift in Sources */,
+				DF2F67B92B2D239200926E26 /* DetailsViewUI.swift in Sources */,
+				DF8EE2382B2C198100A86395 /* CatalogPresenter.swift in Sources */,
+				DF2F67BC2B2D239200926E26 /* DetailsViewController.swift in Sources */,
+				DF8EE22A2B2B972F00A86395 /* GovinfoBiometricButtonViewUI.swift in Sources */,
+				DF6D3BC32B2A6C530018EDCC /* LoginViewController.swift in Sources */,
+				DF6D3BCF2B2A86CC0018EDCC /* GovinfoTextfieldViewUI.swift in Sources */,
+				DFA9E9822B2A26640028DDE8 /* SplashViewUI.swift in Sources */,
+				DFA9E9852B2A26640028DDE8 /* SplashViewController.swift in Sources */,
 				DFA9F3C62B2A15B6004B24AE /* AppDelegate.swift in Sources */,
-				DFA9F3C82B2A15B6004B24AE /* SceneDelegate.swift in Sources */,
+				DF2F67BA2B2D239200926E26 /* DetailsPresenter.swift in Sources */,
+				DF8EE22E2B2BA74100A86395 /* GovinfoCheckboxViewUI.swift in Sources */,
+				DF81B51F2B2E2B7600ABD967 /* LocationHelper.swift in Sources */,
+				DF6D3BC52B2A6C530018EDCC /* LoginInteractor.swift in Sources */,
+				DF2F67C22B2D27F700926E26 /* GovinfoLabelViewUI.swift in Sources */,
+				DF6D3BCA2B2A6C8D0018EDCC /* GovinfoLoaderViewUI.swift in Sources */,
+				DF6D3BC02B2A6C530018EDCC /* LoginViewUI.swift in Sources */,
+				DF6D3BC12B2A6C530018EDCC /* LoginPresenter.swift in Sources */,
+				DF8EE2372B2C198100A86395 /* CatalogViewUI.swift in Sources */,
+				DFA9E9882B2A26640028DDE8 /* SplashEntity.swift in Sources */,
+				DF8EE23A2B2C198100A86395 /* CatalogViewController.swift in Sources */,
+				DF6D3BC42B2A6C530018EDCC /* LoginProtocols.swift in Sources */,
+				DF2F67BD2B2D239200926E26 /* DetailsProtocols.swift in Sources */,
+				DF2F67BB2B2D239200926E26 /* DetailsRouter.swift in Sources */,
+				DF8EE23C2B2C198100A86395 /* CatalogInteractor.swift in Sources */,
+				DF8EE23B2B2C198100A86395 /* CatalogProtocols.swift in Sources */,
+				DF6D3BC22B2A6C530018EDCC /* LoginRouter.swift in Sources */,
+				DF6D3BB42B2A689B0018EDCC /* GovinfoConstants.swift in Sources */,
+				DF6D3BB82B2A69AE0018EDCC /* GovinfoViewController.swift in Sources */,
+				DF8EE2392B2C198100A86395 /* CatalogRouter.swift in Sources */,
+				DF6D3BC62B2A6C530018EDCC /* LoginEntity.swift in Sources */,
+				DF6D3BD82B2A967E0018EDCC /* UIView+Extensions.swift in Sources */,
+				DF8EE22C2B2B9BCA00A86395 /* BiometricAuthHelper.swift in Sources */,
+				DF6D3B992B2A41780018EDCC /* ErrorResponse.swift in Sources */,
+				DF6D3BCC2B2A71A00018EDCC /* UIApplication+Extension.swift in Sources */,
+				DF6D3BD62B2A90900018EDCC /* GovinfoButtonViewUI.swift in Sources */,
+				DF2F67BE2B2D239200926E26 /* DetailsInteractor.swift in Sources */,
+				DF6D3BD12B2A8CBE0018EDCC /* UIColor+Extensions.swift in Sources */,
+				DF2F67AD2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift in Sources */,
+				DF6D3BDD2B2AA05E0018EDCC /* UIFont+Extensions.swift in Sources */,
+				DF6D3BB12B2A67A80018EDCC /* Bundle+Extensions.swift in Sources */,
+				DF2F67B02B2D05D100926E26 /* CatalogViewCell.swift in Sources */,
+				DF2F67BF2B2D239200926E26 /* DetailsEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,20 +673,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DFA9F3CB2B2A15B6004B24AE /* Main.storyboard */ = {
+		DF6D3BAF2B2A61E60018EDCC /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DFA9F3CC2B2A15B6004B24AE /* Base */,
+				DF6D3BAE2B2A61E60018EDCC /* en */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DFA9F3D32B2A15B6004B24AE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFA9F3D42B2A15B6004B24AE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -370,7 +735,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -384,6 +749,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -424,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,15 +805,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Govinfo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow us to check your current location to help us to improve your experience";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow us to check your current location to help us to improve your experience";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to check your current location to help us to improve your experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,9 +825,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.Govinfo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,15 +840,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Govinfo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow us to check your current location to help us to improve your experience";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow us to check your current location to help us to improve your experience";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to check your current location to help us to improve your experience";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,9 +860,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.Govinfo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,13 +878,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.GovinfoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Govinfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Govinfo";
 			};
 			name = Debug;
@@ -515,13 +900,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.GovinfoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Govinfo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Govinfo";
 			};
 			name = Release;
@@ -533,12 +921,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.GovinfoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Govinfo;
 			};
 			name = Debug;
@@ -550,12 +942,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luis-g-rano.GovinfoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Govinfo;
 			};
 			name = Release;
@@ -600,19 +996,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DFA9F3CE2B2A15B6004B24AE /* Govinfo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DFA9F3CF2B2A15B6004B24AE /* Govinfo.xcdatamodel */,
-			);
-			currentVersion = DFA9F3CF2B2A15B6004B24AE /* Govinfo.xcdatamodel */;
-			path = Govinfo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DFA9F3BA2B2A15B6004B24AE /* Project object */;
 }
