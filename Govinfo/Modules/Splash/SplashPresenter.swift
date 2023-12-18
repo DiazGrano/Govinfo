@@ -13,6 +13,7 @@ class SplashPresenter {
     private let router: SplashRouterProtocol
     private var facts: GovFactsResponse = GovFactsResponse()
     var networkChecker = NetworkConnectionChecker()
+    var locationManager = LocationHelper()
     
     init(interactor: SplashInteractorProtocol, router: SplashRouterProtocol) {
         self.interactor = interactor
@@ -31,7 +32,7 @@ extension SplashPresenter: SplashPresenterProtocol {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
             }
-            LocationHelper().requestLocationPermission()
+            locationManager.requestLocationPermission()
             self.interactor.getFacts()
         }
     }
