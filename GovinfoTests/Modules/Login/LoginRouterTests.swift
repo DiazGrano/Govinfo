@@ -30,6 +30,7 @@ final class LoginRouterTests: XCTestCase {
 
     func testStart() {
         XCTAssertNotNil(sut.start(facts: GovFactsResponse()))
+        XCTAssertTrue(sut.navigation.topViewController is LoginViewController)
     }
     
     func testGoToDataTables() {

@@ -28,6 +28,7 @@ final class LoginInteractorTests: XCTestCase {
         sut = nil
         presenterMock = nil
         firebaseHelperMock = nil
+        biometricHelperMock = nil
     }
     
     func testGetUserLogIn() {
