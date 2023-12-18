@@ -8,7 +8,7 @@
 import UIKit
 
 class LoginRouter {
-    private let navigation: UINavigationController
+    let navigation: UINavigationController
     
     public init(navigation: UINavigationController) {
         self.navigation = navigation

@@ -61,6 +61,7 @@ extension LoginViewController: LoginViewControllerProtocol {
             self.present(alert, animated: true)
         }
     }
+    
     func showSuccessLogIn() {
         hideLoader()
     }
@@ -68,7 +69,6 @@ extension LoginViewController: LoginViewControllerProtocol {
 
 extension LoginViewController: LoginViewUIProtocol {
     func logInWithGoogle(useBiometrics: Bool) {
-        
         showLoader()
         presenter.fetchGoogleLogIn(controller: self, useBiometrics: useBiometrics)
     }

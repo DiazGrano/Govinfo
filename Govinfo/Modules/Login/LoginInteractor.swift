@@ -6,13 +6,12 @@
 //
 
 import UIKit
-import FirebaseCore
-import FirebaseAuth
-import GoogleSignIn
 
 class LoginInteractor {
     private weak var presenter: LoginPresenterProtocol?
     private let emailSuffix = "@govinfo.com"
+    var firebaseHelper = FirebaseHelper()
+    var biometricHelper = BiometricAuthHelper()
     
     func setPresenter(_ presenter: LoginPresenterProtocol) {
         self.presenter = presenter
@@ -55,16 +54,12 @@ class LoginInteractor {
         UserDefaults.standard.removeObject(forKey: LoginKeys.accessToken)
     }
     
-    private func loginWithGoogle(useBiometrics: Bool, idToken: String, accessToken: String) {
-        let credential = GoogleAuthProvider.credential(withIDToken: idToken, accessToken: accessToken)
-
-        Auth.auth().signIn(with: credential) { [unowned self] authResult, error in
-            guard error == nil else {
-                self.presenter?.fetchedError(error: ErrorResponse(code: GovinfoConstants.ErrorCodes.login, message: error?.localizedDescription, error: error))
-                return
-            }
+    func loginWithGoogle(useBiometrics: Bool, idToken: String, accessToken: String) {
+        firebaseHelper.signIn(idToken: idToken, accessToken: accessToken) { [unowned self] in
             self.saveGoogleData(useBiometrics, idToken, accessToken)
             self.presenter?.fetchedLogIn()
+        } failure: { [unowned self] errorResponse in
+            self.presenter?.fetchedError(error: errorResponse)
         }
     }
 }
@@ -72,48 +67,31 @@ class LoginInteractor {
 extension LoginInteractor: LoginInteractorProtocol {
     func getUserLogIn(model: LoginRequest, useBiometrics: Bool) {
         let formattedModel = getFormattedLogInModel(model: model)
-        Auth.auth().signIn(withEmail: formattedModel.user, password: formattedModel.pass) { [unowned self] authResult, error in
-            guard authResult != nil, error == nil else {
-                self.presenter?.fetchedError(error: ErrorResponse(code: GovinfoConstants.ErrorCodes.login, message: error?.localizedDescription))
-                return
-            }
-            
+        
+        firebaseHelper.signIn(model: formattedModel) { [unowned self] in
             self.saveUserData(useBiometrics, model)
-            
             self.presenter?.fetchedLogIn()
+        } failure: { [unowned self] errorResponse in
+            self.presenter?.fetchedError(error: errorResponse)
         }
     }
     
     func getUserRegistration(model: LoginRequest, useBiometrics: Bool) {
         let formattedModel = getFormattedLogInModel(model: model)
-        Auth.auth().createUser(withEmail: formattedModel.user, password: formattedModel.pass) { [unowned self] authResult, error in
-            guard authResult != nil, error == nil else {
-                self.presenter?.fetchedError(error: ErrorResponse(code: GovinfoConstants.ErrorCodes.register, message: error?.localizedDescription))
-                return
-            }
-            
+        
+        firebaseHelper.createUser(model: formattedModel) { [unowned self] in
             self.saveUserData(useBiometrics, model)
-            
             self.presenter?.fetchedLogIn()
+        } failure: { [unowned self] errorResponse in
+            self.presenter?.fetchedError(error: errorResponse)
         }
     }
     
     func getGoogleLogIn(controller: UIViewController, useBiometrics: Bool) {
-        guard let clientID = FirebaseApp.app()?.options.clientID else {
-            self.presenter?.fetchedError(error: ErrorResponse.getDefaultError(type: .unknown))
-            return
-        }
-        
-        let config = GIDConfiguration(clientID: clientID)
-        GIDSignIn.sharedInstance.configuration = config
-        
-        GIDSignIn.sharedInstance.signIn(withPresenting: controller) { [unowned self] result, error in
-            guard let user = result?.user, let idToken = user.idToken?.tokenString, error == nil else {
-                self.presenter?.fetchedError(error: ErrorResponse(code: GovinfoConstants.ErrorCodes.login, message: error?.localizedDescription, error: error))
-                return
-            }
-            
-            self.loginWithGoogle(useBiometrics: useBiometrics, idToken: idToken, accessToken: user.accessToken.tokenString)
+        firebaseHelper.getGoogleTokens(withPresenting: controller) { [unowned self] idToken, accessToken in
+            self.loginWithGoogle(useBiometrics: useBiometrics, idToken: idToken, accessToken: accessToken)
+        } failure: { [unowned self] errorResponse in
+            self.presenter?.fetchedError(error: errorResponse)
         }
     }
     
@@ -134,7 +112,7 @@ extension LoginInteractor: LoginInteractorProtocol {
     }
     
     func getBiometricsPermission() {
-        BiometricAuthHelper().authenticate { [unowned self] authenticated in
+        biometricHelper.authenticate { [unowned self] authenticated in
             self.presenter?.fetchedBiometricsPermission(authenticated: authenticated)
         } notAvailable: {
             self.presenter?.fetchedError(error: ErrorResponse.getDefaultError(type: .biometric))

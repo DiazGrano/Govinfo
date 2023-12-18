@@ -36,7 +36,7 @@ class LoginViewUI: UIView {
         return label
     }()
     
-    private lazy var mainStackView: UIStackView = {
+    lazy var mainStackView: UIStackView = {
        let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 20
@@ -47,7 +47,7 @@ class LoginViewUI: UIView {
         return stack
     }()
     
-    private lazy var userTextfield: GovinfoTextfieldViewUI = {
+    lazy var userTextfield: GovinfoTextfieldViewUI = {
        let textfield = GovinfoTextfieldViewUI()
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.govinfoPlaceholder = "Textfields.user".localized
@@ -57,7 +57,7 @@ class LoginViewUI: UIView {
         return textfield
     }()
     
-    private lazy var passTextfield: GovinfoTextfieldViewUI = {
+    lazy var passTextfield: GovinfoTextfieldViewUI = {
        let textfield = GovinfoTextfieldViewUI()
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.isSecureTextEntry = true
@@ -96,7 +96,7 @@ class LoginViewUI: UIView {
         return button
     }()
     
-    private lazy var biometricCheckboxButton: GovinfoCheckboxViewUI = {
+    lazy var biometricCheckboxButton: GovinfoCheckboxViewUI = {
        let checkbox = GovinfoCheckboxViewUI()
         checkbox.translatesAutoresizingMaskIntoConstraints = false
         checkbox.title = "Buttons.biometricsCheckbox".localized
@@ -104,7 +104,7 @@ class LoginViewUI: UIView {
         return checkbox
     }()
     
-    private lazy var biometricLogInButton: GovinfoBiometricButtonViewUI = {
+    lazy var biometricLogInButton: GovinfoBiometricButtonViewUI = {
        let button = GovinfoBiometricButtonViewUI()
         button.delegate = self
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -112,7 +112,7 @@ class LoginViewUI: UIView {
         return button
     }()
     
-    private lazy var changeToManualLoginButton: GovinfoButtonViewUI = {
+    lazy var changeToManualLoginButton: GovinfoButtonViewUI = {
        let button = GovinfoButtonViewUI()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Buttons.manually".localized, for: .normal)
@@ -130,7 +130,7 @@ class LoginViewUI: UIView {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        return nil
     }
 }
 
@@ -233,7 +233,7 @@ extension LoginViewUI {
         showViewComponents(biometricsSaved: false)
     }
     
-    private func validate() -> Bool {
+    func validate() -> Bool {
         userTextfield.validateText()
         passTextfield.validateText()
         
@@ -269,7 +269,9 @@ extension LoginViewUI: GovinfoTextfieldViewUIDelegate {
 
 extension LoginViewUI: GovinfoBiometricButtonViewUIDelegate {
     func biometricStatus(authenticated: Bool) {
-        delegate?.logInWithBiometrics()
+        if authenticated {
+            delegate?.logInWithBiometrics()
+        }
     }
 }
 

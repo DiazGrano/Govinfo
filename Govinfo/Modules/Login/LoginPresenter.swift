@@ -12,6 +12,7 @@ class LoginPresenter {
     private let interactor: LoginInteractorProtocol
     private let router: LoginRouterProtocol
     private let facts: GovFactsResponse
+    var networkChecker = NetworkConnectionChecker()
     
     init(interactor: LoginInteractorProtocol, router: LoginRouterProtocol, facts: GovFactsResponse) {
         self.interactor = interactor
@@ -26,7 +27,7 @@ class LoginPresenter {
 
 extension LoginPresenter: LoginPresenterProtocol {
     func fetchUserLogIn(model: LoginRequest, useBiometrics: Bool) {
-        NetworkConnectionChecker().checkReachability { [unowned self] enabled in
+        networkChecker.checkReachability { [unowned self] enabled in
             guard enabled else {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
@@ -36,7 +37,7 @@ extension LoginPresenter: LoginPresenterProtocol {
     }
     
     func fetchUserRegistration(model: LoginRequest, useBiometrics: Bool) {
-        NetworkConnectionChecker().checkReachability { [unowned self] enabled in
+        networkChecker.checkReachability { [unowned self] enabled in
             guard enabled else {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
@@ -46,7 +47,7 @@ extension LoginPresenter: LoginPresenterProtocol {
     }
     
     func fetchGoogleLogIn(controller: UIViewController, useBiometrics: Bool) {
-        NetworkConnectionChecker().checkReachability { [unowned self] enabled in
+        networkChecker.checkReachability { [unowned self] enabled in
             guard enabled else {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
@@ -56,7 +57,7 @@ extension LoginPresenter: LoginPresenterProtocol {
     }
     
     func fetchBiometricsLogIn() {
-        NetworkConnectionChecker().checkReachability { [unowned self] enabled in
+        networkChecker.checkReachability { [unowned self] enabled in
             guard enabled else {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
