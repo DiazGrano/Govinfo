@@ -30,7 +30,7 @@ class GovinfoTextfieldViewUI: UITextField {
             self.attributedPlaceholder = NSAttributedString(
                 string: govinfoPlaceholder,
                 attributes: [NSAttributedString.Key.foregroundColor: UIColor.govinfoGray ?? UIColor.gray,
-                             NSAttributedString.Key.font: UIFont.getComicFont(16)])
+                             NSAttributedString.Key.font: UIFont.getComicFont(16) ?? .boldSystemFont(ofSize: 16)])
         }
     }
     

@@ -49,8 +49,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let navigationBarAppearance = UINavigationBarAppearance()
             navigationBarAppearance.configureWithOpaqueBackground()
             navigationBarAppearance.titleTextAttributes = [
-                NSAttributedString.Key.foregroundColor: UIColor.govinfoBlack,
-                NSAttributedString.Key.font: UIFont.getComicFont(16)]
+                NSAttributedString.Key.foregroundColor: UIColor.govinfoBlack ?? UIColor.black,
+                NSAttributedString.Key.font: UIFont.getComicFont(16) ?? .boldSystemFont(ofSize: 16)]
             
             navigationBarAppearance.shadowColor = .clear
             navigationBarAppearance.backgroundColor = .govinfoOrangeStrong
@@ -71,8 +71,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             UITabBar.appearance().standardAppearance = tabBarAppearance
         } else {
+            navigation.navigationBar.barTintColor = .govinfoOrangeStrong
             navigation.navigationBar.backgroundColor = .govinfoOrangeStrong
-            navigation.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.govinfoBlack]
+            navigation.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.govinfoBlack ?? UIColor.black]
         }
     }
 }
