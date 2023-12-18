@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailsRouter {
-    private let navigation: UINavigationController
+    let navigation: UINavigationController
     private let fact: Fact
     
     public init(navigation: UINavigationController, fact: Fact) {

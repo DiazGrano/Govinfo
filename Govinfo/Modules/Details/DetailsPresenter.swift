@@ -12,7 +12,8 @@ class DetailsPresenter {
     private let interactor: DetailsInteractorProtocol
     private let router: DetailsRouterProtocol
     private let fact: Fact
-    private let locationHelper = LocationHelper()
+    var locationHelper = LocationHelper()
+    var urlOpenerHelper = URLOpenerHelper()
     
     init(interactor: DetailsInteractorProtocol, router: DetailsRouterProtocol, fact: Fact) {
         self.interactor = interactor
@@ -37,12 +38,12 @@ class DetailsPresenter {
         
         guard let encodedMessage = content.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
               let whatsURL = URL(string: "\(whatsAppURLPrefix)\(encodedMessage)"),
-              UIApplication.shared.canOpenURL(whatsURL) else {
+              urlOpenerHelper.canOpen(whatsURL) else {
             view?.showError(error: ErrorResponse.getDefaultError(type: .whatsapp))
             return
         }
         
-        UIApplication.shared.open(whatsURL)
+        urlOpenerHelper.open(whatsURL)
     }
 }
 

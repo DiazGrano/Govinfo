@@ -9,7 +9,7 @@ import UIKit
 
 class DetailsViewUI: UIView {
     private weak var delegate: DetailsViewUIProtocol?
-    private var stackContainerHeightConstraint = NSLayoutConstraint()
+    var stackContainerHeightConstraint = NSLayoutConstraint()
     
     private lazy var scrollContent: UIScrollView = {
         let scroll = UIScrollView()
@@ -33,7 +33,7 @@ class DetailsViewUI: UIView {
         return view
     }()
     
-    private lazy var mainStackView: UIStackView = {
+    lazy var mainStackView: UIStackView = {
        let stack = UIStackView()
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 20
@@ -59,7 +59,7 @@ class DetailsViewUI: UIView {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        return nil
     }
 }
 
