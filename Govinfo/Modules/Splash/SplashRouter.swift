@@ -8,7 +8,7 @@
 import UIKit
 
 class SplashRouter {
-    private var navigation: UINavigationController?
+    private(set) var navigation: UINavigationController?
     
     public func start() -> UIViewController {
         let interactor = SplashInteractor()
@@ -19,10 +19,6 @@ class SplashRouter {
         interactor.setPresenter(presenter)
         
         return view
-    }
-    
-    private func push(_ viewController: UIViewController, _ animated: Bool = true) {
-        navigation?.pushViewController(viewController, animated: animated)
     }
     
     func setNavigation(_ navigation: UINavigationController) {

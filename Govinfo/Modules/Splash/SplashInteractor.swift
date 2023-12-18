@@ -9,7 +9,7 @@ import Foundation
 
 class SplashInteractor {
     private weak var presenter: SplashPresenterProtocol?
-    private let networkManager = NetworkManager()
+    var networkManager = NetworkManager()
     
     func setPresenter(_ presenter: SplashPresenterProtocol) {
         self.presenter = presenter

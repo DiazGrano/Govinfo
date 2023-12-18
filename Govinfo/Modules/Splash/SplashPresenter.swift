@@ -12,6 +12,7 @@ class SplashPresenter {
     private let interactor: SplashInteractorProtocol
     private let router: SplashRouterProtocol
     private var facts: GovFactsResponse = GovFactsResponse()
+    var networkChecker = NetworkConnectionChecker()
     
     init(interactor: SplashInteractorProtocol, router: SplashRouterProtocol) {
         self.interactor = interactor
@@ -25,7 +26,7 @@ class SplashPresenter {
 
 extension SplashPresenter: SplashPresenterProtocol {
     func fetchFacts() {
-        NetworkConnectionChecker().checkReachability { [unowned self] enabled in
+        networkChecker.checkReachability { [unowned self] enabled in
             guard enabled else {
                 self.view?.showError(error: ErrorResponse.getDefaultError(type: .noInternet))
                 return
