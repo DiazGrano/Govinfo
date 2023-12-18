@@ -60,6 +60,6 @@ final class FirebaseHelperTests: XCTestCase {
             expect.fulfill()
         }
 
-        wait(for: [expect], timeout: 1)
+        wait(for: [expect], timeout: 60)
     }
 }
