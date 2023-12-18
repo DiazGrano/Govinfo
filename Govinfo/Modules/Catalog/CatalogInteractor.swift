@@ -8,7 +8,7 @@
 import Foundation
 
 class CatalogInteractor {
-    private weak var presenter: CatalogPresenterProtocol?
+    private(set) weak var presenter: CatalogPresenterProtocol?
     
     func setPresenter(_ presenter: CatalogPresenterProtocol) {
         self.presenter = presenter

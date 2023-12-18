@@ -16,7 +16,7 @@ class CatalogViewUI: UIView {
         return view
     }()
     
-    private lazy var searchTextfield: GovinfoTextfieldViewUI = {
+    lazy var searchTextfield: GovinfoTextfieldViewUI = {
        let textfield = GovinfoTextfieldViewUI()
         textfield.translatesAutoresizingMaskIntoConstraints = false
         textfield.govinfoPlaceholder = "Textfields.search".localized
@@ -26,7 +26,7 @@ class CatalogViewUI: UIView {
         return textfield
     }()
     
-    private lazy var factsTable: UITableView = {
+    lazy var factsTable: UITableView = {
         let table = UITableView(frame: .zero, style: .plain)
         table.translatesAutoresizingMaskIntoConstraints = false
         table.register(CatalogViewCell.self, forCellReuseIdentifier: CatalogViewCell.identifier)
@@ -50,7 +50,7 @@ class CatalogViewUI: UIView {
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        return nil
     }
 }
 
@@ -106,7 +106,7 @@ extension CatalogViewUI: UITableViewDataSource, UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let model = delegate?.getFactsModel() else {
+        guard let model = delegate?.getFactsModel(), !model.isEmpty  else {
             return 0
         }
         return model.count

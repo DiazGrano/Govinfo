@@ -9,7 +9,7 @@ import UIKit
 
 class CatalogViewController: GovinfoViewController {
     private let presenter: CatalogPresenterProtocol
-    private var ui: CatalogViewUI?
+    private(set) var ui: CatalogViewUI?
     
     required init(presenter: CatalogPresenterProtocol) {
         self.presenter = presenter
