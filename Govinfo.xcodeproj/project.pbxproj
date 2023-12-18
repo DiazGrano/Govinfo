@@ -18,6 +18,7 @@
 		DF2F67BE2B2D239200926E26 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B72B2D239200926E26 /* DetailsInteractor.swift */; };
 		DF2F67BF2B2D239200926E26 /* DetailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67B82B2D239200926E26 /* DetailsEntity.swift */; };
 		DF2F67C22B2D27F700926E26 /* GovinfoLabelViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */; };
+		DF4AC9F22B303256006A3B63 /* BiometricHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */; };
 		DF6D3B972B2A2EF70018EDCC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */; };
 		DF6D3B992B2A41780018EDCC /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */; };
 		DF6D3BA32B2A45430018EDCC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */; };
@@ -55,6 +56,31 @@
 		DF8EE23B2B2C198100A86395 /* CatalogProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2342B2C198100A86395 /* CatalogProtocols.swift */; };
 		DF8EE23C2B2C198100A86395 /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2352B2C198100A86395 /* CatalogInteractor.swift */; };
 		DF8EE23D2B2C198100A86395 /* CatalogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EE2362B2C198100A86395 /* CatalogEntity.swift */; };
+		DF9DD5A72B3001DB00941097 /* SplasRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5A62B3001DB00941097 /* SplasRouterTests.swift */; };
+		DF9DD5AC2B3005EF00941097 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5AB2B3005EF00941097 /* NetworkManagerMock.swift */; };
+		DF9DD5AE2B3007F400941097 /* SplashInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5AD2B3007F400941097 /* SplashInteractorTests.swift */; };
+		DF9DD5B12B3008F000941097 /* SplashPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5B02B3008F000941097 /* SplashPresenterMock.swift */; };
+		DF9DD5B32B300ADA00941097 /* SplashPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5B22B300ADA00941097 /* SplashPresenterTests.swift */; };
+		DF9DD5B52B300B1900941097 /* SplashInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5B42B300B1900941097 /* SplashInteractorMock.swift */; };
+		DF9DD5B72B300B5F00941097 /* SplasRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5B62B300B5F00941097 /* SplasRouterMock.swift */; };
+		DF9DD5B92B300D4700941097 /* SplashViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5B82B300D4700941097 /* SplashViewControllerMock.swift */; };
+		DF9DD5BB2B3011C100941097 /* SplashViewcontrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5BA2B3011C100941097 /* SplashViewcontrollerTests.swift */; };
+		DF9DD5BD2B3019D900941097 /* GovinfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5BC2B3019D900941097 /* GovinfoUITests.swift */; };
+		DF9DD5BF2B3019DF00941097 /* GovinfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5BE2B3019DF00941097 /* GovinfoUITestsLaunchTests.swift */; };
+		DF9DD5C12B301E1000941097 /* SplashViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5C02B301E1000941097 /* SplashViewUITests.swift */; };
+		DF9DD5C32B301F2000941097 /* SplashEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5C22B301F2000941097 /* SplashEntityTests.swift */; };
+		DF9DD5C62B301F8000941097 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5C52B301F8000941097 /* UIAlertController+Extension.swift */; };
+		DF9DD5C92B3022F100941097 /* LoginPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5C82B3022F100941097 /* LoginPresenterTests.swift */; };
+		DF9DD5CB2B3022F800941097 /* LoginRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5CA2B3022F800941097 /* LoginRouterTests.swift */; };
+		DF9DD5CD2B3022FD00941097 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5CC2B3022FD00941097 /* LoginInteractorTests.swift */; };
+		DF9DD5CF2B30230300941097 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5CE2B30230300941097 /* LoginViewControllerTests.swift */; };
+		DF9DD5D12B30230900941097 /* LoginViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5D02B30230900941097 /* LoginViewUITests.swift */; };
+		DF9DD5D62B30232100941097 /* LoginPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5D52B30232100941097 /* LoginPresenterMock.swift */; };
+		DF9DD5D82B30232800941097 /* LoginInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5D72B30232800941097 /* LoginInteractorMock.swift */; };
+		DF9DD5DA2B30232E00941097 /* LoginRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5D92B30232E00941097 /* LoginRouterMock.swift */; };
+		DF9DD5DC2B30233400941097 /* LoginViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5DB2B30233400941097 /* LoginViewControllerMock.swift */; };
+		DF9DD5DE2B30250F00941097 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5DD2B30250F00941097 /* FirebaseHelper.swift */; };
+		DF9DD5E02B302A3100941097 /* FirebaseHelperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD5DF2B302A3100941097 /* FirebaseHelperMock.swift */; };
 		DFA9E9822B2A26640028DDE8 /* SplashViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97B2B2A26640028DDE8 /* SplashViewUI.swift */; };
 		DFA9E9832B2A26640028DDE8 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97C2B2A26640028DDE8 /* SplashPresenter.swift */; };
 		DFA9E9842B2A26640028DDE8 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E97D2B2A26640028DDE8 /* SplashRouter.swift */; };
@@ -64,10 +90,8 @@
 		DFA9E9882B2A26640028DDE8 /* SplashEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9E9812B2A26640028DDE8 /* SplashEntity.swift */; };
 		DFA9F3C62B2A15B6004B24AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3C52B2A15B6004B24AE /* AppDelegate.swift */; };
 		DFA9F3D22B2A15B6004B24AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA9F3D12B2A15B6004B24AE /* Assets.xcassets */; };
-		DFA9F3E02B2A15B7004B24AE /* GovinfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3DF2B2A15B7004B24AE /* GovinfoTests.swift */; };
-		DFA9F3EA2B2A15B7004B24AE /* GovinfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3E92B2A15B7004B24AE /* GovinfoUITests.swift */; };
-		DFA9F3EC2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */; };
 		DFB302932B2FD444002CD2C4 /* NetworkConnectionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */; };
+		DFFACE172B302D6E009E8FC7 /* GovinfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFACE162B302D6E009E8FC7 /* GovinfoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +123,7 @@
 		DF2F67B72B2D239200926E26 /* DetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
 		DF2F67B82B2D239200926E26 /* DetailsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsEntity.swift; sourceTree = "<group>"; };
 		DF2F67C12B2D27F700926E26 /* GovinfoLabelViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoLabelViewUI.swift; sourceTree = "<group>"; };
+		DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelperMock.swift; sourceTree = "<group>"; };
 		DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DF6D3B982B2A41780018EDCC /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
 		DF6D3BA22B2A45430018EDCC /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -136,6 +161,32 @@
 		DF8EE2342B2C198100A86395 /* CatalogProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogProtocols.swift; sourceTree = "<group>"; };
 		DF8EE2352B2C198100A86395 /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 		DF8EE2362B2C198100A86395 /* CatalogEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogEntity.swift; sourceTree = "<group>"; };
+		DF9DD5A62B3001DB00941097 /* SplasRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplasRouterTests.swift; sourceTree = "<group>"; };
+		DF9DD5A82B30043900941097 /* Govinfo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Govinfo.xctestplan; path = GovinfoTests/Govinfo.xctestplan; sourceTree = SOURCE_ROOT; };
+		DF9DD5AB2B3005EF00941097 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		DF9DD5AD2B3007F400941097 /* SplashInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorTests.swift; sourceTree = "<group>"; };
+		DF9DD5B02B3008F000941097 /* SplashPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterMock.swift; sourceTree = "<group>"; };
+		DF9DD5B22B300ADA00941097 /* SplashPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterTests.swift; sourceTree = "<group>"; };
+		DF9DD5B42B300B1900941097 /* SplashInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorMock.swift; sourceTree = "<group>"; };
+		DF9DD5B62B300B5F00941097 /* SplasRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplasRouterMock.swift; sourceTree = "<group>"; };
+		DF9DD5B82B300D4700941097 /* SplashViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewControllerMock.swift; sourceTree = "<group>"; };
+		DF9DD5BA2B3011C100941097 /* SplashViewcontrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewcontrollerTests.swift; sourceTree = "<group>"; };
+		DF9DD5BC2B3019D900941097 /* GovinfoUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GovinfoUITests.swift; sourceTree = "<group>"; };
+		DF9DD5BE2B3019DF00941097 /* GovinfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GovinfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF9DD5C02B301E1000941097 /* SplashViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewUITests.swift; sourceTree = "<group>"; };
+		DF9DD5C22B301F2000941097 /* SplashEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEntityTests.swift; sourceTree = "<group>"; };
+		DF9DD5C52B301F8000941097 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		DF9DD5C82B3022F100941097 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
+		DF9DD5CA2B3022F800941097 /* LoginRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterTests.swift; sourceTree = "<group>"; };
+		DF9DD5CC2B3022FD00941097 /* LoginInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorTests.swift; sourceTree = "<group>"; };
+		DF9DD5CE2B30230300941097 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		DF9DD5D02B30230900941097 /* LoginViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewUITests.swift; sourceTree = "<group>"; };
+		DF9DD5D52B30232100941097 /* LoginPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterMock.swift; sourceTree = "<group>"; };
+		DF9DD5D72B30232800941097 /* LoginInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorMock.swift; sourceTree = "<group>"; };
+		DF9DD5D92B30232E00941097 /* LoginRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterMock.swift; sourceTree = "<group>"; };
+		DF9DD5DB2B30233400941097 /* LoginViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerMock.swift; sourceTree = "<group>"; };
+		DF9DD5DD2B30250F00941097 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		DF9DD5DF2B302A3100941097 /* FirebaseHelperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelperMock.swift; sourceTree = "<group>"; };
 		DFA9E97B2B2A26640028DDE8 /* SplashViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewUI.swift; sourceTree = "<group>"; };
 		DFA9E97C2B2A26640028DDE8 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		DFA9E97D2B2A26640028DDE8 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
@@ -148,11 +199,9 @@
 		DFA9F3D12B2A15B6004B24AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA9F3D62B2A15B6004B24AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA9F3DB2B2A15B7004B24AE /* GovinfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovinfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA9F3DF2B2A15B7004B24AE /* GovinfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoTests.swift; sourceTree = "<group>"; };
 		DFA9F3E52B2A15B7004B24AE /* GovinfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GovinfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA9F3E92B2A15B7004B24AE /* GovinfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoUITests.swift; sourceTree = "<group>"; };
-		DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovinfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectionChecker.swift; sourceTree = "<group>"; };
+		DFFACE162B302D6E009E8FC7 /* GovinfoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GovinfoTests.swift; path = ../../../../../../.Trash/GovinfoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +280,7 @@
 				DF6D3B962B2A2EF70018EDCC /* NetworkManager.swift */,
 				DF6D3BA42B2A4C0E0018EDCC /* URLsHelper.swift */,
 				DFB302922B2FD444002CD2C4 /* NetworkConnectionChecker.swift */,
+				DF9DD5DD2B30250F00941097 /* FirebaseHelper.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -366,6 +416,82 @@
 			path = Catalog;
 			sourceTree = "<group>";
 		};
+		DF9DD5A42B3001AC00941097 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5C72B30221F00941097 /* Login */,
+				DF9DD5A52B3001B300941097 /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DF9DD5A52B3001B300941097 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5AF2B3008E400941097 /* Mocks */,
+				DF9DD5B22B300ADA00941097 /* SplashPresenterTests.swift */,
+				DF9DD5A62B3001DB00941097 /* SplasRouterTests.swift */,
+				DF9DD5AD2B3007F400941097 /* SplashInteractorTests.swift */,
+				DF9DD5BA2B3011C100941097 /* SplashViewcontrollerTests.swift */,
+				DF9DD5C02B301E1000941097 /* SplashViewUITests.swift */,
+				DF9DD5C22B301F2000941097 /* SplashEntityTests.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DF9DD5A92B3005C800941097 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5AB2B3005EF00941097 /* NetworkManagerMock.swift */,
+				DF9DD5DF2B302A3100941097 /* FirebaseHelperMock.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF9DD5AF2B3008E400941097 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5B02B3008F000941097 /* SplashPresenterMock.swift */,
+				DF9DD5B42B300B1900941097 /* SplashInteractorMock.swift */,
+				DF9DD5B62B300B5F00941097 /* SplasRouterMock.swift */,
+				DF9DD5B82B300D4700941097 /* SplashViewControllerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		DF9DD5C42B301F6C00941097 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5C52B301F8000941097 /* UIAlertController+Extension.swift */,
+				DF4AC9F12B303256006A3B63 /* BiometricHelperMock.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF9DD5C72B30221F00941097 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5D42B30231700941097 /* Mock */,
+				DF9DD5C82B3022F100941097 /* LoginPresenterTests.swift */,
+				DF9DD5CA2B3022F800941097 /* LoginRouterTests.swift */,
+				DF9DD5CC2B3022FD00941097 /* LoginInteractorTests.swift */,
+				DF9DD5CE2B30230300941097 /* LoginViewControllerTests.swift */,
+				DF9DD5D02B30230900941097 /* LoginViewUITests.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DF9DD5D42B30231700941097 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD5D52B30232100941097 /* LoginPresenterMock.swift */,
+				DF9DD5D72B30232800941097 /* LoginInteractorMock.swift */,
+				DF9DD5D92B30232E00941097 /* LoginRouterMock.swift */,
+				DF9DD5DB2B30233400941097 /* LoginViewControllerMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		DFA9E9892B2A27BC0028DDE8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,7 +538,11 @@
 		DFA9F3DE2B2A15B7004B24AE /* GovinfoTests */ = {
 			isa = PBXGroup;
 			children = (
-				DFA9F3DF2B2A15B7004B24AE /* GovinfoTests.swift */,
+				DF9DD5A82B30043900941097 /* Govinfo.xctestplan */,
+				DFFACE162B302D6E009E8FC7 /* GovinfoTests.swift */,
+				DF9DD5C42B301F6C00941097 /* Utils */,
+				DF9DD5A92B3005C800941097 /* Network */,
+				DF9DD5A42B3001AC00941097 /* Modules */,
 			);
 			path = GovinfoTests;
 			sourceTree = "<group>";
@@ -420,8 +550,8 @@
 		DFA9F3E82B2A15B7004B24AE /* GovinfoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DFA9F3E92B2A15B7004B24AE /* GovinfoUITests.swift */,
-				DFA9F3EB2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift */,
+				DF9DD5BC2B3019D900941097 /* GovinfoUITests.swift */,
+				DF9DD5BE2B3019DF00941097 /* GovinfoUITestsLaunchTests.swift */,
 			);
 			path = GovinfoUITests;
 			sourceTree = "<group>";
@@ -429,10 +559,10 @@
 		DFA9F3F82B2A1680004B24AE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				DF2F67B12B2D238400926E26 /* Details */,
-				DF8EE22F2B2C196F00A86395 /* Catalog */,
 				DFA9F3F92B2A1688004B24AE /* Splash */,
 				DF6D3BB52B2A69670018EDCC /* Login */,
+				DF8EE22F2B2C196F00A86395 /* Catalog */,
+				DF2F67B12B2D238400926E26 /* Details */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -526,6 +656,7 @@
 					};
 					DFA9F3E42B2A15B7004B24AE = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 						TestTargetID = DFA9F3C12B2A15B6004B24AE;
 					};
 				};
@@ -634,6 +765,7 @@
 				DF6D3BD12B2A8CBE0018EDCC /* UIColor+Extensions.swift in Sources */,
 				DF2F67AD2B2CE4E900926E26 /* GovinfoSeparatorViewUI.swift in Sources */,
 				DF6D3BDD2B2AA05E0018EDCC /* UIFont+Extensions.swift in Sources */,
+				DF9DD5DE2B30250F00941097 /* FirebaseHelper.swift in Sources */,
 				DF6D3BB12B2A67A80018EDCC /* Bundle+Extensions.swift in Sources */,
 				DF2F67B02B2D05D100926E26 /* CatalogViewCell.swift in Sources */,
 				DF2F67BF2B2D239200926E26 /* DetailsEntity.swift in Sources */,
@@ -644,7 +776,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA9F3E02B2A15B7004B24AE /* GovinfoTests.swift in Sources */,
+				DF9DD5CB2B3022F800941097 /* LoginRouterTests.swift in Sources */,
+				DF9DD5A72B3001DB00941097 /* SplasRouterTests.swift in Sources */,
+				DF9DD5B32B300ADA00941097 /* SplashPresenterTests.swift in Sources */,
+				DF9DD5AC2B3005EF00941097 /* NetworkManagerMock.swift in Sources */,
+				DF9DD5CD2B3022FD00941097 /* LoginInteractorTests.swift in Sources */,
+				DF9DD5AE2B3007F400941097 /* SplashInteractorTests.swift in Sources */,
+				DF9DD5B12B3008F000941097 /* SplashPresenterMock.swift in Sources */,
+				DF9DD5CF2B30230300941097 /* LoginViewControllerTests.swift in Sources */,
+				DFFACE172B302D6E009E8FC7 /* GovinfoTests.swift in Sources */,
+				DF9DD5B92B300D4700941097 /* SplashViewControllerMock.swift in Sources */,
+				DF9DD5BB2B3011C100941097 /* SplashViewcontrollerTests.swift in Sources */,
+				DF9DD5DA2B30232E00941097 /* LoginRouterMock.swift in Sources */,
+				DF9DD5C62B301F8000941097 /* UIAlertController+Extension.swift in Sources */,
+				DF4AC9F22B303256006A3B63 /* BiometricHelperMock.swift in Sources */,
+				DF9DD5D62B30232100941097 /* LoginPresenterMock.swift in Sources */,
+				DF9DD5C12B301E1000941097 /* SplashViewUITests.swift in Sources */,
+				DF9DD5E02B302A3100941097 /* FirebaseHelperMock.swift in Sources */,
+				DF9DD5C32B301F2000941097 /* SplashEntityTests.swift in Sources */,
+				DF9DD5DC2B30233400941097 /* LoginViewControllerMock.swift in Sources */,
+				DF9DD5B72B300B5F00941097 /* SplasRouterMock.swift in Sources */,
+				DF9DD5C92B3022F100941097 /* LoginPresenterTests.swift in Sources */,
+				DF9DD5D82B30232800941097 /* LoginInteractorMock.swift in Sources */,
+				DF9DD5D12B30230900941097 /* LoginViewUITests.swift in Sources */,
+				DF9DD5B52B300B1900941097 /* SplashInteractorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,8 +807,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA9F3EA2B2A15B7004B24AE /* GovinfoUITests.swift in Sources */,
-				DFA9F3EC2B2A15B7004B24AE /* GovinfoUITestsLaunchTests.swift in Sources */,
+				DF9DD5BD2B3019D900941097 /* GovinfoUITests.swift in Sources */,
+				DF9DD5BF2B3019DF00941097 /* GovinfoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -877,6 +1032,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -899,6 +1055,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -918,8 +1075,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -929,6 +1088,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Govinfo;
@@ -939,8 +1099,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX65CAV54R;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;

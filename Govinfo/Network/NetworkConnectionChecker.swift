@@ -8,8 +8,10 @@
 import Foundation
 
 class NetworkConnectionChecker {
+    var networkManager = NetworkManager()
+    
     func checkReachability(enabled: @escaping (Bool) -> Void) {
-        NetworkManager().request(url: BasePath.google.rawValue, method: .head) { _ in
+        networkManager.request(url: BasePath.google.rawValue, method: .head) { _ in
             enabled(true)
         } failure: { errorResponse in
             enabled(false)

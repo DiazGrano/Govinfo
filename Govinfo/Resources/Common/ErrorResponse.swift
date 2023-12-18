@@ -69,6 +69,7 @@ struct ErrorResponse {
     let title: String
     let message: String
     let error: Error?
+    let defaultErrorType: DefaultErrorResponseType?
     
     init(code: String = DefaultErrorResponseType.unknown.getCode(),
          title: String = DefaultErrorResponseType.unknown.getTitle(),
@@ -78,6 +79,7 @@ struct ErrorResponse {
         self.title = title
         self.message = message
         self.error = error
+        self.defaultErrorType = nil
     }
     
     init(code: String = DefaultErrorResponseType.unknown.getCode(),
@@ -88,10 +90,22 @@ struct ErrorResponse {
         self.title = title
         self.message = message ?? DefaultErrorResponseType.unknown.getMessage()
         self.error = error
+        self.defaultErrorType = nil
+    }
+    
+    init(code: String,
+         title: String,
+         message: String,
+         defaultErrorType: DefaultErrorResponseType) {
+        self.code = code
+        self.title = title
+        self.message = message
+        self.error = nil
+        self.defaultErrorType = defaultErrorType
     }
     
     static func getDefaultError(type: DefaultErrorResponseType) -> ErrorResponse {
-        return ErrorResponse(code: type.getCode(), title: type.getTitle(), message: type.getMessage())
+        return ErrorResponse(code: type.getCode(), title: type.getTitle(), message: type.getMessage(), defaultErrorType: type)
     }
     
     func getFullMessage() -> String {

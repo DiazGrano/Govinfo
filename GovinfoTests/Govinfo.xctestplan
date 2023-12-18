@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "6691188E-2F18-4317-BC16-4A479C428DD3",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Govinfo.xcodeproj",
+          "identifier" : "DFA9F3C12B2A15B6004B24AE",
+          "name" : "Govinfo"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Govinfo.xcodeproj",
+      "identifier" : "DFA9F3C12B2A15B6004B24AE",
+      "name" : "Govinfo"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Govinfo.xcodeproj",
+        "identifier" : "DFA9F3DA2B2A15B7004B24AE",
+        "name" : "GovinfoTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Govinfo.xcodeproj",
+        "identifier" : "DFA9F3E42B2A15B7004B24AE",
+        "name" : "GovinfoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
