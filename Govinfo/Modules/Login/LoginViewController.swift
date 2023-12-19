@@ -31,7 +31,7 @@ class LoginViewController: GovinfoViewController {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: false)
         ui?.clearFields()
-        let useBiometrics = UserDefaults.standard.bool(forKey: "useBiometrics")
+        let useBiometrics = UserDefaults.standard.bool(forKey: LoginKeys.biometrics)
         ui?.showViewComponents(biometricsSaved: useBiometrics)
     }
     
